@@ -1,0 +1,14 @@
+CREATE TABLE `askfolio`.`Item` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `category` INT NULL,
+  `quantity` INT NULL,
+  `status` VARCHAR(30) NOT NULL,
+  `condintion` VARCHAR(45) NULL,
+  `product` INT NULL,
+  `product_table` VARCHAR(45) NULL,
+  `purchase_value` VARCHAR(45) NULL,
+  `price` INT NULL,
+  `desc` VARCHAR(1500) NULL,
+  `location` VARCHAR(45) NULL,
+  `list_time` TIMESTAMP NULL,
+  PRIMARY KEY (`id`));
